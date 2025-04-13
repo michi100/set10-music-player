@@ -11,14 +11,12 @@
 - update 関数はフレーム更新処理を行う
 - draw 関数は描画処理を行う
 
-### html ファイル作成
+### html ファイル作成、デプロイ
 
 `cd set10-music-player` \
-`pyxel package .\game\ .\game\main.py` .pyxelapp ファイルが生成される\
-`cd web`\
-`pyxel app2html ..\game.pyxapp` web フォルダの中に.html ファイルが生成される \
-`mv .\game.html ..\public\` \
-`cd set10-music-player` \
+`pyxel package .\game\ .\game\main.py` game.pyxapp ファイルを生成する\
+`pyxel app2html game.pyxapp` game.pyxapp から game.html ファイルを生成する \
+`mv .\game.html .\public\` html ファイルを public フォルダに移動 \
 `firebase deploy --only hosting`
 
 上記は Windows11 で実施した手順。

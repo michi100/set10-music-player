@@ -70,7 +70,6 @@ node_modules/
 
 # 追加
 pyxel_examples
-public
 game.pyxapp
 .vscode
 .venv1
