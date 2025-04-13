@@ -16,7 +16,7 @@
 `cd set10-music-player` \
 `pyxel package .\game\ .\game\main.py` game.pyxapp ファイルを生成する\
 `pyxel app2html game.pyxapp` game.pyxapp から game.html ファイルを生成する \
-`mv .\game.html .\public\` html ファイルを public フォルダに移動 \
+`mv .\game.html .\public\index.html` html ファイルを public フォルダに移動 \
 `firebase deploy --only hosting`
 
 上記は Windows11 で実施した手順。
